@@ -1,24 +1,24 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Qt build directories
+build/
+build-*/
 
-# Other files and folders
-.settings/
+# Qt Creator user files
+*.user
+*.pro.user*
+*.qtc_clangd
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
-
-bejeweled-2021.pro.user
-
-gamewidget.cpp.autosave
-
+# CMake / qmake
+CMakeLists.txt.user
 *.autosave
+
+# Windows
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+
+# IDE
+.vscode/
+.idea/
+
